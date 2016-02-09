@@ -58,11 +58,5 @@ public class Reservation {
 		this.chambre = chambre;
 	}
 	
-	public void addClient(Client client, Hotel hotel){
-		
-		hotel.getListClients().add(client);
-		
-		
-	}
 	
 }
